@@ -1,0 +1,172 @@
+body{
+    font-family: Montserrat;
+}
+h1{
+    font-size: 3.5rem;
+}
+h2{
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: "Monserrat-Bold";
+    font-weight: 25;
+    margin-top: 5%;
+}
+
+#title{
+    background-color:hsl(286, 100%, 50%);
+    color:#fff;
+
+}
+.world{
+    padding: 3% 15% 12% 15%;
+}
+
+.container-fluid{
+    padding: 3% 15% 0 15%;
+}
+
+.mon{   font-family: "Montserrat-Black";
+font-size: 3rem;
+line-height: 1.5;
+}
+.nav-item{
+    padding: 0 15px;
+}
+.navbar-brand {
+    color:#fff;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+.nav-link{
+    color: #fff;
+    font-size: 1.5 rem;
+}
+
+.title-image{
+    transform: rotate(20deg);
+    height: 500px;
+    margin-left: 25%; 
+    position: absolute;
+    z-index: 0;
+}
+.image-container{
+    height: 60%;
+    position:relative;
+}
+.meet{
+    padding-right: 5%;
+}
+/* navigation bar */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+
+#features{
+    padding: 7% 15%;
+    text-align:center;
+    background-color: #fff;
+    position: relative;
+
+
+    
+}
+.featurebox{
+    padding: 5%;
+}
+.featureboxo{
+    padding: 5% 3%;
+}
+.icon{
+    color: hsl(295, 100%, 50%) ;
+    margin-bottom: 1.5 rem;
+}
+.icon:hover{
+    color: hsl(286, 100%, 50%);
+}
+.sign-up{
+    font-family: "Monserrat-Black";
+    
+}
+
+
+#testimonials{
+    
+    text-align: center;
+    background-color:hsl(286, 100%, 50%) ;
+    color: #fff;
+    
+}
+.carousel-item{
+    padding: 7% 20%;
+}
+#press{
+    background-color:hsl(286, 100%, 50%) ;
+    text-align: center;
+    padding: 0 8% 10% 8%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.testimonial-image{
+    height: 5%;
+    width: 10%;
+    border-radius: 100%;
+
+}
+#pricing{
+    padding: 10%;
+    text-align: center;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+#cta{
+    background-color:hsl(286, 100%, 50%) ;
+    color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+    
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-heading{
+    font-family: "Montserrat-Black";
+    font-size:3.5rem;
+    line-height:1.5;
+}
+.social-icon{
+    padding: 2%;
+}
+
+
+
+
+
+@media(max-width:1028px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        margin: 0%;
+        
+    }
+    #title{
+        text-align: center;
+    }
+    .mon{
+        
+        text-align: center;
+    }
+    .fas{
+        color: #fff;
+    }
+    .navbar-toggler{
+        color: #fff;  
+    }
+}
